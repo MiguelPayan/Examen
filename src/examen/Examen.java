@@ -23,6 +23,7 @@ public class Examen {
         if(eleccion == 1){
             System.out.println("Elige el numero de algun dorsal del 1 al 11 de algun jugador del FC Barcelona");
             numero= sc.nextInt();
+            //INICIALIZACION DE SWITCH
             switch(numero){
                 //SE ESTABLECEN LOS VALORES PARA CADA ATRIBUTO DEL OBJETO JugadorBarxa
                 case 1: j1.setDorsal(numero); j1.setNombre("Ter Stegen"); j1.setPosicion("Arquero"); j1.setGoles_anotados(0);
