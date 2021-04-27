@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Examen {
 
-    //ACTUALIZACION
+    //ACTUALIZACION 2
     public static void main(String[] args) {
         //INSTANCIACION DE UNA CLASE
         JugadorBarca j1 = new JugadorBarca();
